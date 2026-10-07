@@ -11,4 +11,4 @@ insert into Enrollment values(1,1001,201),(2,1001,202),
 (3,1002,203),(4,1003,201);
 select  Cource.courceID,Cource.courcename,Cource.credits from 
 Cource right join Enrollment on 
-Cource.courceID=Enrollment.courseID;
+Cource.courceID=Enrollment.courseID ;
